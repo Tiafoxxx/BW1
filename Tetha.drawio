@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-17T12:54:32.285Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="DTZik37nrwdQTI7LyAFy" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-17T12:55:15.347Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="jXLm_3MBL41GE8dP5rLi" version="24.5.4" type="github">
   <diagram name="Pagina-1" id="3W4L14M-POliAq9xksL8">
     <mxGraphModel dx="682" dy="1593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,12 +13,6 @@
         <mxCell id="a_WcTtSneEypwCUw1xM3-3" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
           <mxGeometry x="384" y="180" width="62.41" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="a_WcTtSneEypwCUw1xM3-4" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="412" y="80" as="sourcePoint" />
-            <mxPoint x="412.45" y="40" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="a_WcTtSneEypwCUw1xM3-5" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="413" y="200" as="sourcePoint" />
@@ -26,7 +20,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="a_WcTtSneEypwCUw1xM3-9" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.cloud;" vertex="1" parent="1">
-          <mxGeometry x="359" y="-30" width="110" height="70" as="geometry" />
+          <mxGeometry x="359" y="-50" width="110" height="70" as="geometry" />
         </mxCell>
         <mxCell id="a_WcTtSneEypwCUw1xM3-11" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
           <mxGeometry x="510" y="190" width="28.000000000000004" height="50" as="geometry" />
@@ -182,7 +176,7 @@
           <mxGeometry x="482.41" y="85" width="47.59" height="25" as="geometry" />
         </mxCell>
         <mxCell id="a_WcTtSneEypwCUw1xM3-62" value="&lt;font color=&quot;#ffffff&quot;&gt;cloud&lt;/font&gt;" style="text;strokeColor=#82b366;align=center;fillColor=#333333;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="398.61999999999995" y="10" width="33.18" height="20" as="geometry" />
+          <mxGeometry x="398.61999999999995" y="-10" width="33.18" height="20" as="geometry" />
         </mxCell>
         <mxCell id="a_WcTtSneEypwCUw1xM3-63" value="Router&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="220.7" y="315" width="60" height="30" as="geometry" />
@@ -206,6 +200,12 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="317.90999999999997" y="214.70999999999998" as="sourcePoint" />
             <mxPoint x="372.90999999999997" y="214.70999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a_WcTtSneEypwCUw1xM3-78" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="50" as="sourcePoint" />
+            <mxPoint x="414" y="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
