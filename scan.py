@@ -2,7 +2,7 @@ import socket
 import re
 
 def main():
-     # Input dell'utente per l'indirizzo IP e il range di porte
+    # Input dell'utente per l'indirizzo IP e il range di porte
     ip = input("Inserisci ip da scansire: ")
     port_range = input("Inserisci il range di porte (0-1024)")
     
@@ -10,8 +10,7 @@ def main():
     porte_chiuse = []
     porte_filtrate = []
 
-
-     # Estrazione del range di porte
+    # Estrazione del range di porte
     low_port = (int(port_range.split('-')[0]))
     high_port = (int(port_range.split('-')[1]))
      
@@ -37,7 +36,6 @@ def main():
                     porte_chiuse.append(port)
                 else:
                     porte_filtrate.append(port)
-
 
         except Exception as e:
             print(f"Porta {port} - Errore: {e}")
