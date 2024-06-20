@@ -19,11 +19,11 @@ def ottieni_token(url):
 def main():
     usernames_file = input("\nInserisci il file contenente gli usernames: ")
     passwords_file = input("\nInserisci il file contenente le password: ")
-    url = 'http://192.168.1.101/phpMyAdmin/'
+    url = input("Inserisci url phpMyAdmin: ").rstrip('/') + '/'
     try:
-        with open("usernames.txt") as file_utenti:
+        with open(usernames_file) as file_utenti:
             lista_utenti = file_utenti.readlines()
-        with open("passwords.txt") as file_passwords:
+        with open(passwords_file) as file_passwords:
             lista_password = file_passwords.readlines()
             
             for username in lista_utenti:
