@@ -44,7 +44,6 @@ def main():
                                 print(f"Login Fallito. (token di sessione: {token})\n\n")
                             else:
                                 print(f"Accesso trovato con: {username} e {password}. Token: {token}\n\n")
-                                exit()
                         else:
                             print("Errore", risposta.status_code)
                     except requests.exceptions.RequestException as e:
