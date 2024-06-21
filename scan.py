@@ -6,9 +6,9 @@ def main():
     ip = input("Inserisci ip da scansire: ")
     port_range = input("Inserisci il range di porte (0-1024)")
     
-    # Liste per porte chiuse e filtrate
+    # Liste per porte chiuse
     porte_chiuse = []
-    porte_filtrate = []
+    
 
     # Estrazione del range di porte
     low_port = (int(port_range.split('-')[0]))
@@ -33,17 +33,11 @@ def main():
                     print(f"Porta {port} aperta - Impossibile identificare il servizio")
             elif stato == 111:
                 porte_chiuse.append(port)
-            else:
-                porte_filtrate.append(port)
 
         except Exception as e:
             print(f"Porta {port} - Errore: {e}")
         finally:
             s.close()
-    
-    # Richiesta per visualizzare le porte filtrate
-    si_no = input("Vuoi la lista delle porte filtrate? S(Sì)/N(No): ")
-    if(si_no.startswith("S")): print(f"Porte filtrate: {porte_filtrate}\n")
         
 # Identificazione del servizio in base alla risposta del server
 def identifica_servizio(risposta):
