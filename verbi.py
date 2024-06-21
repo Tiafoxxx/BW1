@@ -3,7 +3,7 @@ import requests
 
 def main():
     # Input dell'utente per l'host e la porta
-    host = input("Inserisci url dell'host: ")
+    host = input("Inserisci ip dell'host: ")
     porta = input("Inserisci porta: ")
     
     # Costruzione dell'URL in base alla porta
